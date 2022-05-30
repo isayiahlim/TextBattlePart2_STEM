@@ -1,0 +1,24 @@
+Bob the Great is dead.
+Bob the Great defeated 1 monster!
+Bob the Great ended the game with 42 gold pieces.
+Bob the Great ended the game with the following inventory: 
+1: Health Potion with Potency 20 2: empty slot 3: Strength Potion with Damage Boost 10 4: Upgrade Potion 
+Thank you for playing!
+Princess Sparkles has 45 health left.
+Princess Sparkles defeated 2 monsters!
+Princess Sparkles ended the game with 30 gold pieces.
+Princess Sparkles ended the game with the following inventory: 
+1: empty slot 2: empty slot 3: empty slot 4: empty slot 
+Thank you for playing!
+Captain Hammer has 125 health left.
+Captain Hammer defeated 0 monsters!
+Captain Hammer ended the game with 0 gold pieces.
+Captain Hammer ended the game with the following inventory: 
+1: empty slot 2: Upgrade Potion 
+Thank you for playing!
+Meg the Mighty has 20 health left.
+Meg the Mighty defeated 3 monsters!
+Meg the Mighty ended the game with 50 gold pieces.
+Meg the Mighty ended the game with the following inventory: 
+1: Mana Potion with Potency 5 2: empty slot 3: Mana Potion with Potency 5 
+Thank you for playing!

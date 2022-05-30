@@ -1,0 +1,74 @@
+Wendy the Warrior has encountered a dragon!
+
+********************************** ROUND 1 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Wendy the Warrior attacks the dragon for 15 damage.
+The dragon has 85 health left.
+
+Wendy the Warrior blocks 1 points of damage.
+The dragon attacks Wendy the Warrior for 9 damage.
+Wendy the Warrior has 22 health left.
+
+
+********************************** ROUND 2 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Wendy the Warrior attacks the dragon for 14 damage.
+The dragon has 71 health left.
+
+Wendy the Warrior blocks 1 points of damage.
+The dragon attacks Wendy the Warrior for 10 damage.
+Wendy the Warrior has 13 health left.
+
+
+********************************** ROUND 3 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Wendy the Warrior attacks the dragon for 10 damage.
+The dragon has 61 health left.
+
+Wendy the Warrior blocks 1 points of damage.
+The dragon attacks Wendy the Warrior for 8 damage.
+Wendy the Warrior has 6 health left.
+
+
+********************************** ROUND 4 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Wendy the Warrior attacks the dragon for 14 damage.
+The dragon has 47 health left.
+
+Wendy the Warrior blocks 1 points of damage.
+The dragon attacks Wendy the Warrior for 2 damage.
+Wendy the Warrior has 5 health left.
+
+
+********************************** ROUND 5 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Wendy the Warrior attacks the dragon for 13 damage.
+The dragon has 34 health left.
+
+Wendy the Warrior blocks 1 points of damage.
+The dragon attacks Wendy the Warrior for 4 damage.
+Wendy the Warrior has 2 health left.
+
+
+********************************** ROUND 6 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Wendy the Warrior attacks the dragon for 12 damage.
+The dragon has 22 health left.
+
+Wendy the Warrior blocks 1 points of damage.
+The dragon attacks Wendy the Warrior for 7 damage.
+Wendy the Warrior is dead.
+
+The dragon has defeated Wendy the Warrior

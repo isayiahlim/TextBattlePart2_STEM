@@ -1,0 +1,38 @@
+Mandy the Mage has encountered a dragon!
+
+********************************** ROUND 1 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Mandy the Mage has 5 mana left.
+Mandy the Mage attacks the dragon for 5 damage.
+The dragon has 95 health left.
+
+The dragon attacks Mandy the Mage for 7 damage.
+Mandy the Mage has 13 health left.
+
+
+********************************** ROUND 2 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Mandy the Mage has 0 mana left.
+Mandy the Mage attacks the dragon for 5 damage.
+The dragon has 90 health left.
+
+The dragon attacks Mandy the Mage for 9 damage.
+Mandy the Mage has 4 health left.
+
+
+********************************** ROUND 3 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Not enough mana!
+Mandy the Mage attacks the dragon for 0 damage.
+The dragon has 90 health left.
+
+The dragon attacks Mandy the Mage for 9 damage.
+Mandy the Mage is dead.
+
+The dragon has defeated Mandy the Mage

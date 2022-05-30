@@ -1,0 +1,71 @@
+Welcome to the shop Bob the Great!
+You have 8 gold coins to spend.
+
+What would you like to do?
+	1: Purchase a Healing Potion
+	2: Purchase a Strength Potion
+	3: Purchase an Upgrade Potion
+	4: Purchase a Mana Potion
+	0: Exit Shop
+Sorry, only a Mage can purchase a Mana Poition.
+You have 8 gold coins to spend.
+
+What would you like to do?
+	1: Purchase a Healing Potion
+	2: Purchase a Strength Potion
+	3: Purchase an Upgrade Potion
+	4: Purchase a Mana Potion
+	0: Exit Shop
+Thank you for shopping! Have a nice day!
+Welcome to the shop Princess Sparkles!
+You have 7 gold coins to spend.
+
+What would you like to do?
+	1: Purchase a Healing Potion
+	2: Purchase a Strength Potion
+	3: Purchase an Upgrade Potion
+	4: Purchase a Mana Potion
+	0: Exit Shop
+Sorry, only a Mage can purchase a Mana Poition.
+You have 7 gold coins to spend.
+
+What would you like to do?
+	1: Purchase a Healing Potion
+	2: Purchase a Strength Potion
+	3: Purchase an Upgrade Potion
+	4: Purchase a Mana Potion
+	0: Exit Shop
+Thank you for shopping! Have a nice day!
+Welcome to the shop Captain Hammer!
+You have 7 gold coins to spend.
+
+What would you like to do?
+	1: Purchase a Healing Potion
+	2: Purchase a Strength Potion
+	3: Purchase an Upgrade Potion
+	4: Purchase a Mana Potion
+	0: Exit Shop
+Sorry, only a Mage can purchase a Mana Poition.
+You have 7 gold coins to spend.
+
+What would you like to do?
+	1: Purchase a Healing Potion
+	2: Purchase a Strength Potion
+	3: Purchase an Upgrade Potion
+	4: Purchase a Mana Potion
+	0: Exit Shop
+Thank you for shopping! Have a nice day!
+Welcome to the shop Meg the Mighty!
+You have 5 gold coins to spend.
+
+What would you like to do?
+	1: Purchase a Healing Potion
+	2: Purchase a Strength Potion
+	3: Purchase an Upgrade Potion
+	4: Purchase a Mana Potion
+	0: Exit Shop
+Purchase successful! Your new inventory: 
+1: Mana Potion with Potency 5 2: empty slot 
+
+You are out of gold!
+Thank you for shopping! Have a nice day!

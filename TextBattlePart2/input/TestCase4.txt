@@ -1,0 +1,47 @@
+Randy the Rogue has encountered a dragon!
+
+********************************** ROUND 1 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Randy the Rogue attacks the dragon for 6 damage.
+The dragon has 94 health left.
+
+The dragon attacks Randy the Rogue for 4 damage.
+Randy the Rogue has 16 health left.
+
+
+********************************** ROUND 2 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Randy the Rogue gets a critical hit!
+Randy the Rogue attacks the dragon for 12 damage.
+The dragon has 82 health left.
+
+The dragon attacks Randy the Rogue for 5 damage.
+Randy the Rogue has 11 health left.
+
+
+********************************** ROUND 3 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Randy the Rogue attacks the dragon for 1 damage.
+The dragon has 81 health left.
+
+The dragon attacks Randy the Rogue for 4 damage.
+Randy the Rogue has 7 health left.
+
+
+********************************** ROUND 4 **********************************
+
+Your inventory holds: 1: Lesser Health Potion 2: Lesser Health Potion 3: Lesser Strength Potion 4: Lesser Strength Potion 5: Lesser Mana Potion 
+Type an inventory slot number or 0 to attack: 
+Randy the Rogue attacks the dragon for 8 damage.
+The dragon has 73 health left.
+
+The dragon attacks Randy the Rogue for 10 damage.
+Randy the Rogue is dead.
+
+The dragon has defeated Randy the Rogue

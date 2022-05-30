@@ -9,6 +9,26 @@
  * and methods detailed in the project spec. You 
  * may add additional fields and methods if you like.
  */
-public class ManaPotion {
 
+public class ManaPotion extends Item
+{
+	public ManaPotion(String rarity)
+	{
+		super("Mana Potion", rarity);
+		if(super.getPoints() == 0)
+			super.setRarity(rarity);
+	}
+	public void use(Player player)
+	{
+		if(player instanceof Mage)
+		{
+			System.out.println(player.getName() + " used a " + super.getRarity() + " Mana "
+				+ "Potion increasing their available mana by " + getPoints() + " points.");
+		}
+		else
+		{
+			System.out.println("Only a mage can use a Mana Potion!");
+		}
+	}
 }
+

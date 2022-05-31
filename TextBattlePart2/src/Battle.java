@@ -83,10 +83,10 @@ public class Battle {
 		else
 			ptype = "Lesser";
 		//returns a random potion of type
-		if (potionChance < 0.2 && player instanceof Mage)
-			return new ManaPotion(ptype);
-		else if(potionChance >= 0.2 && potionChance < 0.4)
+		if(potionChance < 0.2)
 			return new StrengthPotion(ptype);
+		else if (player instanceof Mage && potionChance < 0.4)
+			return new ManaPotion(ptype);
 		else
 			return new HealthPotion(ptype);
 	}

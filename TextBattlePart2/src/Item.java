@@ -18,14 +18,18 @@ public class Item
 	public Item()
 	{
 		type = "Unknown Item";
-		rarity = "";
+		rarity = "Lesser";
 	}
 	
 	//mutator constructor
 	public Item(String type, String rarity)
 	{
 		this.type = type;
-		this.rarity = rarity;
+		if(rarity.equals("Lesser") || rarity.equals("Basic") || rarity.equals("Greater") ||
+				rarity.equals("Epic"))
+			this.rarity = rarity;
+		else
+			this.rarity = "Lesser";
 	}
 	
 	//prints out the item

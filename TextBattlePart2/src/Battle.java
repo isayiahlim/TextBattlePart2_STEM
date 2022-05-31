@@ -32,7 +32,7 @@ public class Battle {
 		while (!className.equals("Rogue") && !className.equals("Warrior") && 
 				!className.equals("Mage"))
 		{
-			System.out.println("Choose a valid class (Rogue, Warrior, or Mage");
+			System.out.println("Choose a valid class (Rogue, Warrior, or Mage)");
 			className = input.next();
 		}
 		if(className.equals("Rogue"))
@@ -55,7 +55,7 @@ public class Battle {
 			if(alive)
 			{
 				int healnum = (int)(Math.random()*20) + 1;
-				System.out.println(player.getName() + " has been rewareded " + healnum 
+				System.out.println(player.getName() + " has been rewarded " + healnum 
 						+ " points of health back.");
 				player.healDamage(healnum);
 				//gives random loot

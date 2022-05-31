@@ -23,11 +23,13 @@ public class Battle {
 		System.out.print("What is your name? ");
 		String name = input.nextLine();
 		Player player;
+		//variables determining whether the game continues
 		Boolean quit = false;
 		Boolean alive = true;
-		//sets the class
+		//sets the class of the player
 		System.out.print("Choose your class (Rogue, Warrior, or Mage) ");
 		String className = input.next();
+		//makes sure it is valid
 		while (!className.equals("Rogue") && !className.equals("Warrior") && 
 				!className.equals("Mage"))
 		{
@@ -51,14 +53,6 @@ public class Battle {
 			alive = startBattle(player, monster, input);
 			if(alive)
 			{
-				int healnum = (int)(Math.random()*20) + 1;
-				System.out.println(player.getName() + " has been rewarded " + healnum 
-						+ " points of health back.");
-				player.healDamage(healnum);
-				//gives random loot
-				Item loot = getLoot(player);
-				player.receiveItem(loot);
-				System.out.println(player.getName() + " has ben rewarded with a " + loot.getType());
 				//asks if they want to quit
 				System.out.println("Continue?");
 				String response = input.next().toUpperCase();
@@ -158,6 +152,14 @@ public class Battle {
 			return false;
 		}
 		System.out.println(player.getName() + " has defeated the " + monster.getType());
+		int healnum = (int)(Math.random()*20) + 1;
+		System.out.println(player.getName() + " has been rewarded " + healnum 
+				+ " points of health back.");
+		player.healDamage(healnum);
+		//gives random loot
+		Item loot = getLoot(player);
+		player.receiveItem(loot);
+		System.out.println(player.getName() + " has ben rewarded with a " + loot.getType());
 		return true;
 	}
 

@@ -45,12 +45,10 @@ public class Battle {
 		
 		//chooses the monster from an array of monster
 		String[] monsterList = {"Mr. Lesli", "CollegeBoard", "Tonald J. Dump", "This Project"};
-		Item[] items = {new HealthPotion("Lesser"), new StrengthPotion("Lesser"), 
-				new ManaPotion("Lesser")};
 		//starts the game
 		while(!quit && alive)
 		{
-			Monster monster = new Monster(monsterList[(int)(Math.random()*4)]);
+			Monster monster = new Monster(monsterList[(int)(Math.random()*monsterList.length)]);
 			alive = startBattle(player, monster, input);
 			if(alive)
 			{
@@ -59,8 +57,8 @@ public class Battle {
 						+ " points of health back.");
 				player.healDamage(healnum);
 				//gives random loot
-				Item loot = items[(int)(Math.random()*3)];
-				player.receiveItem(getLoot(player));
+				Item loot = getLoot(player);
+				player.receiveItem(loot);
 				System.out.println(player.getName() + " has ben rewarded with a " + loot.getType());
 				//asks if they want to quit
 				System.out.println("Continue?");
@@ -75,39 +73,23 @@ public class Battle {
 	{
 		double rarityChance = Math.random();
 		double potionChance = Math.random();
-		if (potionChance < 0.2 && player instanceof Mage)
-		{
-			if(rarityChance < 0.05)
-				return new ManaPotion("Epic");
-			else if(rarityChance < 0.15)
-				return new ManaPotion("Greater");
-			else if(rarityChance < 0.35)
-				return new ManaPotion("Lesser");
-			else
-				return new ManaPotion("Greater");
-		}
-		if(potionChance >= 0.2 && potionChance < 0.4)
-		{
-			if(rarityChance < 0.05)
-				return new StrengthPotion("Epic");
-			else if(rarityChance < 0.15)
-				return new StrengthPotion("Greater");
-			else if(rarityChance < 0.35)
-				return new StrengthPotion("Lesser");
-			else
-				return new StrengthPotion("Greater");
-		}
+		String ptype;
+		//determines rarity
+		if(rarityChance < 0.05)
+			ptype = "Epic";
+		else if(rarityChance < 0.15)
+			ptype = "Greater";
+		else if(rarityChance < 0.35)
+			ptype = "Basic";
 		else
-		{
-			if(rarityChance < 0.05)
-				return new HealthPotion("Epic");
-			else if(rarityChance < 0.15)
-				return new HealthPotion("Greater");
-			else if(rarityChance < 0.35)
-				return new HealthPotion("Lesser");
-			else
-				return new HealthPotion("Greater");
-		}
+			ptype = "Lesser";
+		//returns a random potion of type
+		if (potionChance < 0.2 && player instanceof Mage)
+			return new ManaPotion(ptype);
+		else if(potionChance >= 0.2 && potionChance < 0.4)
+			return new StrengthPotion(ptype);
+		else
+			return new HealthPotion(ptype);
 	}
 	 /**
 	  * This is the method that my test cases will call directly.

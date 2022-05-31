@@ -14,7 +14,7 @@ public class Rogue extends Player
 	private double critChance;
 	public Rogue(String name, double critChance)
 	{
-		super(name + " the Rogue", 75, 1, 10);
+		super(name, 75, 1, 10);
 		if(critChance >= 1 || critChance <= 0)	
 			this.critChance = 0.1;
 		else

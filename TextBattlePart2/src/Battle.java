@@ -35,11 +35,11 @@ public class Battle {
 			className = input.next();
 		}
 		if(className.equals("Rogue"))
-			player = new Rogue(name, 50);
+			player = new Rogue(name + " the Rogue", 50);
 		else if (className.equals("Warrior"))
-			player = new Warrior(name, 50);
+			player = new Warrior(name + " the Warrior", 50);
 		else 
-			player = new Mage(name, 50);
+			player = new Mage(name + " the Mage", 50);
 		System.out.println();
 		
 		//chooses the monster from an array of monster

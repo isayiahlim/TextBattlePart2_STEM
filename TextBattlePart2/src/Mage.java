@@ -15,7 +15,7 @@ public class Mage extends Player
 	private int maxMana;
 	public Mage(String name, int mana) 
 	{
-		super(name + " the Mage", 50, 5, 10);
+		super(name, 50, 5, 10);
 		if(mana <= 0)
 			this.mana = 50;
 		else

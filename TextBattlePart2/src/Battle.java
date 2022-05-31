@@ -151,16 +151,19 @@ public class Battle {
 			System.out.println("The " + monster.getType() + " has defeated " + player.getName());
 			return false;
 		}
-		System.out.println(player.getName() + " has defeated the " + monster.getType());
-		int healnum = (int)(Math.random()*20) + 1;
-		System.out.println(player.getName() + " has been rewarded " + healnum 
-				+ " points of health back.");
-		player.healDamage(healnum);
-		//gives random loot
-		Item loot = getLoot(player);
-		player.receiveItem(loot);
-		System.out.println(player.getName() + " has ben rewarded with a " + loot.getType());
-		return true;
-	}
-
+		else
+		{
+			System.out.println(player.getName() + " has defeated the " + monster.getType());
+			// heal the player
+			int healnum = (int)(Math.random()*20) + 1;
+			System.out.println(player.getName() + " has been rewarded " + healnum 
+					+ " points of health back.");
+			player.healDamage(healnum);
+			//gives random loot
+			Item loot = getLoot(player);
+			player.receiveItem(loot);
+			System.out.println(player.getName() + " has ben rewarded with a " + loot.getType());
+			return true;
+		}
+	}		
 }

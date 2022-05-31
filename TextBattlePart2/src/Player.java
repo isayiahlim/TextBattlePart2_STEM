@@ -147,7 +147,7 @@ public class Player
 	}
 	
 	//adds an idem
-	public void recieveItem(Item item)
+	public void receiveItem(Item item)
 	{
 		inventory.add(item);
 	}

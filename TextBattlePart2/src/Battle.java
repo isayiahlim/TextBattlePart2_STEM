@@ -12,7 +12,6 @@
  */
 import java.util.Scanner;
 public class Battle {
-	
 	/**
 	 * Use this method for playing your game. I will bypass this in my test code, but I will
 	 * be looking at its contents when I grade for internal correctness.
@@ -27,20 +26,20 @@ public class Battle {
 		Boolean quit = false;
 		Boolean alive = true;
 		//sets the class
-		System.out.println("Choose your class (Rogue, Warrior, or Mage");
+		System.out.print("Choose your class (Rogue, Warrior, or Mage) ");
 		String className = input.next();
 		while (!className.equals("Rogue") && !className.equals("Warrior") && 
 				!className.equals("Mage"))
 		{
-			System.out.println("Choose a valid class (Rogue, Warrior, or Mage)");
+			System.out.print("Choose a valid class (Rogue, Warrior, or Mage) ");
 			className = input.next();
 		}
 		if(className.equals("Rogue"))
-			player = new Rogue(name, 1);
+			player = new Rogue(name, 50);
 		else if (className.equals("Warrior"))
-			player = new Warrior(name, 1);
+			player = new Warrior(name, 50);
 		else 
-			player = new Mage(name, 1);
+			player = new Mage(name, 50);
 		System.out.println();
 		
 		//chooses the monster from an array of monster
@@ -113,17 +112,20 @@ public class Battle {
 					" **********************************");
 			System.out.println();
 			System.out.println("Your inventory holds: " + player.getInventory());
-			//chose between attacking and using an item
+			//choose between attacking and using an item
 			System.out.print("Type an inventory slot number or 0 to attack: ");
 			int response = input.nextInt();
-			System.out.println();
 			
 			//player's move
 			if(response == 0)
 			{
-				System.out.println(player.getName() + " attacks the " + monster.getType() + " for " 
-						+ player.attack(monster) + " damage.");
-				System.out.println(monster);
+				int damage = player.attack(monster);
+				if (damage > 0)
+				{
+					System.out.println(player.getName() + " attacks the " + monster.getType() + 
+							" for " + damage + " damage.");
+					System.out.println(monster);
+				}
 			}
 			else
 				player.useItem(response-1);

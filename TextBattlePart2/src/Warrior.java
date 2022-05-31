@@ -14,7 +14,7 @@ public class Warrior extends Player
 	private double shieldStrength;
 	public Warrior(String name, double shieldStrength)
 	{
-		super(name, 125, 5, 15);
+		super(name + " the Warrior", 125, 5, 15);
 		if(shieldStrength >= 1 || shieldStrength <= 0)	
 			this.shieldStrength = 0.1;
 		else

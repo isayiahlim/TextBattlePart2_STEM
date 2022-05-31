@@ -15,7 +15,7 @@ public class Mage extends Player
 	private int maxMana;
 	public Mage(String name, int mana) 
 	{
-		super(name, 50, 5, 10);
+		super(name + " the Mage", 50, 5, 10);
 		if(mana <= 0)
 			this.mana = 50;
 		else
@@ -24,8 +24,8 @@ public class Mage extends Player
 	}
 	public int attack(Monster monster)
 	{
-		int cost = (int)(Math.random()*(maxMana/2 - 5) + 1);
-		if(mana - cost <= 0)
+		int cost = (int)(Math.random()*(maxMana/2) + 1);
+		if(mana - cost < 0)
 		{
 			System.out.println("Not enough mana!");
 			return 0;

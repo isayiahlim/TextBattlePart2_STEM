@@ -19,7 +19,9 @@ public class HealthPotion extends Item
 	}
 	public void use(Player player)
 	{
+		int heal = getPoints();
 		System.out.println(player.getName() + " used a " + super.getRarity() + " Health Potion "
-				+ "increasing their available health by " + getPoints() + " points.");
+				+ "increasing their available health by " + heal + " points.");
+		player.healDamage(heal);
 	}
 }

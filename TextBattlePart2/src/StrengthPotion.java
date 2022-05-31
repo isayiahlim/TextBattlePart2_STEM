@@ -19,7 +19,9 @@ public class StrengthPotion extends Item
 	}
 	public void use(Player player)
 	{
+		int stronger = getPoints();
 		System.out.println(player.getName() + " used a " + super.getRarity() + " Strength Potion "
-				+ "increasing their min and max damage by " + getPoints() + " points.");
+				+ "increasing their min and max damage by " + stronger + " points.");
+		player.getStronger(stronger);
 	}
 }

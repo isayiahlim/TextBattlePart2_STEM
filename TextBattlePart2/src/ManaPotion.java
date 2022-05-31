@@ -22,8 +22,10 @@ public class ManaPotion extends Item
 	{
 		if(player instanceof Mage)
 		{
+			int restore = getPoints();
 			System.out.println(player.getName() + " used a " + super.getRarity() + " Mana "
-				+ "Potion increasing their available mana by " + getPoints() + " points.");
+				+ "Potion increasing their available mana by " + restore + " points.");
+			((Mage) player).restoreMana(restore);
 		}
 		else
 		{

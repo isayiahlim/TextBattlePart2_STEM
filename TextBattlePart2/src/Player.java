@@ -193,8 +193,4 @@ public class Player
 		return name + " is dead.";
 	}
 
-	public void setHealth(int i) {
-		// TODO Auto-generated method stub
-		
-	}
 }

@@ -65,7 +65,7 @@ public class Item
 	//returns the amount of points a item is worth
 	public int getPoints()
 	{
-		int mult = (int)Math.random()*5;
+		int mult = (int)(Math.random()*5);
 		if(rarity.equals("Lesser")) 
 			return mult + 1;
 		else if(rarity.equals("Basic"))

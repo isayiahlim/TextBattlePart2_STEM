@@ -80,5 +80,13 @@ public class Monster
 			return "The " + type + " has " + health + " health left.";
 		return "The " + type + " is dead.";
 	}
+	public int getMinDamage()
+	{
+		return minDmg;
+	}
+	public int getMaxDamage()
+	{
+		return maxDmg;
+	}
 }
 

@@ -44,6 +44,17 @@ public class Mage extends Player
 		else
 			mana += restore;
 	}
+	public int getMana()
+	{
+		return mana;
+	}
+	public void useMana(int reduce)
+	{
+		if(mana - reduce > 0)
+			mana -= reduce;
+		else
+			mana = 0;
+	}
 
 }
 

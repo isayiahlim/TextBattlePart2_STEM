@@ -60,7 +60,7 @@ public class Battle {
 				player.healDamage(healnum);
 				//gives random loot
 				Item loot = items[(int)(Math.random()*3)];
-				player.recieveItem(getLoot(player));
+				player.receiveItem(getLoot(player));
 				System.out.println(player.getName() + " has ben rewarded with a " + loot.getType());
 				//asks if they want to quit
 				System.out.println("Continue?");

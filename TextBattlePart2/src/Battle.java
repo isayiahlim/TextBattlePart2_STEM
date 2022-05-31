@@ -75,18 +75,7 @@ public class Battle {
 	{
 		double rarityChance = Math.random();
 		double potionChance = Math.random();
-		if(potionChance < 0.2)
-		{
-			if(rarityChance < 0.05)
-				return new StrengthPotion("Epic");
-			else if(rarityChance < 0.15)
-				return new StrengthPotion("Greater");
-			else if(rarityChance < 0.35)
-				return new StrengthPotion("Lesser");
-			else
-				return new StrengthPotion("Greater");
-		}
-		else if (potionChance < 0.4 /*&& player is a mage*/ )
+		if (potionChance < 0.2 && player instanceof Mage)
 		{
 			if(rarityChance < 0.05)
 				return new ManaPotion("Epic");
@@ -96,6 +85,17 @@ public class Battle {
 				return new ManaPotion("Lesser");
 			else
 				return new ManaPotion("Greater");
+		}
+		if(potionChance >= 0.2 && potionChance < 0.4)
+		{
+			if(rarityChance < 0.05)
+				return new StrengthPotion("Epic");
+			else if(rarityChance < 0.15)
+				return new StrengthPotion("Greater");
+			else if(rarityChance < 0.35)
+				return new StrengthPotion("Lesser");
+			else
+				return new StrengthPotion("Greater");
 		}
 		else
 		{

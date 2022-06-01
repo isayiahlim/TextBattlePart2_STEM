@@ -1,9 +1,9 @@
 /**
  * Name: Isayiah Lim
- * Last Updated On: 5/17/2022
+ * Last Updated On: 5/31/2022
  * Mrs. Kankelborg
  * APCS Period 2
- * Text Battle Project Part One
+ * Text Battle Project Part Two
  * 
  * This class is the application class. Your main method must meet all the requirements in the 
  * specification on turn in but is otherwise for your testing purposes only. My test code will call
@@ -46,10 +46,12 @@ public class Battle {
 		
 		//chooses the monster from an array of monster
 		String[] monsterList = {"Mr. Lesli", "CollegeBoard", "Tonald J. Dump", "This Project"};
-		//starts the game
+		//starts the game and runs until player dies or they choose to quit
 		while(!quit && alive)
 		{
+			//chooses a random monster to fight
 			Monster monster = new Monster(monsterList[(int)(Math.random()*monsterList.length)]);
+			//plays game, sees if player wins
 			alive = startBattle(player, monster, input);
 			if(alive)
 			{
@@ -64,6 +66,7 @@ public class Battle {
 	//gives additional loot at the end of a round
 	public static Item getLoot(Player player)
 	{
+		//randomizes the rarity and potion chosen
 		double rarityChance = Math.random();
 		double potionChance = Math.random();
 		String ptype;
@@ -76,7 +79,7 @@ public class Battle {
 			ptype = "Basic";
 		else
 			ptype = "Lesser";
-		//returns a random potion of type
+		//returns a random potion of given rarity
 		if (player instanceof Mage)
 		{
 			if (potionChance < 0.2)

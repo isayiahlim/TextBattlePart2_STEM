@@ -1,8 +1,8 @@
 /**
- * Name: 
- * Last Updated On: 
+ * Name: Isayiah Lim
+ * Last Updated On: 5/31/2022
  * Mrs. Kankelborg
- * APCS Period 
+ * APCS Period 2
  * Text Battle Project Part Two
  * 
  * This class is the represents a Monster object. It must contain all of the fields and
@@ -55,6 +55,14 @@ public class Monster
 	{
 		return health;
 	}
+	public int getMinDamage()
+	{
+		return minDmg;
+	}
+	public int getMaxDamage()
+	{
+		return maxDmg;
+	}
 	
 	//attacks the player
 	public int attack(Player player)
@@ -80,13 +88,6 @@ public class Monster
 			return "The " + type + " has " + health + " health left.";
 		return "The " + type + " is dead.";
 	}
-	public int getMinDamage()
-	{
-		return minDmg;
-	}
-	public int getMaxDamage()
-	{
-		return maxDmg;
-	}
+	
 }
 

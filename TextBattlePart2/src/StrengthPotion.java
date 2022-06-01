@@ -1,8 +1,8 @@
 /**
- * Name: 
- * Last Updated On: 
+ * Name: Isayiah Lim
+ * Last Updated On: 5/31/2022
  * Mrs. Kankelborg
- * APCS Period 
+ * APCS Period 2
  * Text Battle Project Part Two
  * 
  * This class is the represents a StrenghPotion object which is an Item. It must contain all of the fields 
@@ -11,14 +11,14 @@
  */
 public class StrengthPotion extends Item
 {
+	//constructor
 	public StrengthPotion(String rarity)
 	{
 		super("Strength Potion", rarity);
-		if(super.getPoints() == 0)
-			super.setRarity(rarity);
 	}
 	public void use(Player player)
 	{
+		//increases the strength of the player
 		int stronger = getPoints();
 		System.out.println(player.getName() + " used a " + super.getRarity() + " Strength Potion "
 				+ "increasing their min and max damage by " + stronger + " points.");
